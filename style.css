@@ -1,7 +1,14 @@
 body{
-  background-color: purple;
-  border: 20px solid blue;
+  padding: 30px;
+  background-color: antiquewhite;
 }
-em{
-  color: black
+blockquote{
+  color: purple;
+  font-size: 16;
+  font-family: times,serif;
+}
+div{
+  margin-left: 5%;
+  font-family: geneva, sans-serif;
+  font-size: 12;
 }
