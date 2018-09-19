@@ -1,0 +1,11 @@
+body{
+  padding:20px;
+  text-align:center;
+  color:red;
+  background-color:white;
+}
+p{
+  color:purple;
+  border:20px groove blue;
+  background-color: black;
+}
