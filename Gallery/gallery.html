@@ -4,13 +4,22 @@
 <title>(Image Gallery)</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
+<style>
+iframe{
+float: right;
+display:block;
+height:400px;
+width:90%;
+}
+</style>
 </head>
 <body>
 <h1>African Images</h1>
+<iframe src="" frameborder="0" name="iframe"></iframe>
 <ul>
-  <li><a href="image_template.html" target="_new"><img src="image1-thumb.jpg" alt="image1 thumbnail"/></a></li>
-  <li><a href="image_template2.html" target="_new"><img src="image2-thumb.jpg" alt="image2 thumbnail"/></a></li>
-  <li><a href="image_template3.html" target="_new"><img src="image3-thumb.jpg" alt="image3 thumbnail"/></a></li>
+  <li><a href="image_template.html" target="iframe"><img src="image1-thumb.jpg" alt="image1 thumbnail"/></a></li>
+  <li><a href="image_template2.html" target="iframe"><img src="image2-thumb.jpg" alt="image2 thumbnail"/></a></li>
+  <li><a href="image_template3.html" target="iframe"><img src="image3-thumb.jpg" alt="image3 thumbnail"/></a></li>
 </ul>
 </body>
 </html>
