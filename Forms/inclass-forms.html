@@ -20,10 +20,10 @@ div.column {float:left;padding:20px;}
   <input name="email" type="text" required>
   <br><br>
   Range:
-  <input type="range" min="1" max="100" onchange="showValue(this.value)">
+  <input name="range" type="range" min="1" max="100" onchange="showValue(this.value)">
     <span id="range">0</span>
     <br><br>
-    <input list="browsers">
+    <input name="data" list="browsers">
     <datalist id="browsers">
     <option value="Internet Explorer">
     <option value="Firefox">
@@ -32,7 +32,7 @@ div.column {float:left;padding:20px;}
     <option value="Safari">
   </datalist>
 <br><br>
-  <input type="image" src="submit.jpg" alt="submit">
+  <input type="image" src="submit.jpg" alt="submit" >
 </form>
 </div>
 <div class="columns">
