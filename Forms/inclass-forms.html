@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Inclass-forms</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="">
+<style>
+  label {font-weight:bold; color:green;}
+#range{color:red;}
+div.column {float:left;padding:20px;}
+</style>
+</head>
+<body>
+  <div class="column">
+  <form action = https://idesstage2.bc.edu/class/results.php method="post">
+  Your Name Is:
+  <input name="name" type="text">
+  <br><br>
+  Email:
+  <input name="email" type="text" required>
+  <br><br>
+  Range:
+  <input type="range" min="1" max="100" onchange="showValue(this.value)">
+    <span id="range">0</span>
+    <br><br>
+    <input list="browsers">
+    <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+<br><br>
+  <input type="image" src="submit.jpg" alt="submit">
+</form>
+</div>
+<div class="columns">
+  <img src="https://t00.deviantart.net/mRnpetKPOCiolpL2xFqoIDI3Ap8=/fit-in/700x350/filters:fixed_height(100,100):origin()/pre00/3de2/th/pre/f/2015/088/6/9/sad_kitty_facedesk_by_nakanoart-d5lncgv.jpg" alt="oof">
+  <caption>Good Luck</caption>
+  </div>
+
+
+<script type="text/javascript">
+function showValue(newValue)
+{
+document.getElementById("range").innerHTML=newValue;
+}
+</script>
+</body>
+</html>
